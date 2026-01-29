@@ -15,11 +15,7 @@
 </head>
 <body>
 
-    <div id="app">
-      <div class="content">
-        <component type="typeof(App)" render-mode="ServerPrerendered" />
-      </div>
-    </div>
+    <component type="typeof(App)" render-mode="ServerPrerendered" />
 
     <div id="blazor-error-ui">
         <environment include="Staging,Production">
@@ -35,3 +31,4 @@
     <script src="_framework/blazor.server.js"></script>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert@latest/dist/sweetalert.min.js"></script>
